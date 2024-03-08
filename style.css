@@ -65,8 +65,8 @@ height: 20px;
 background-color: none;
 }
 .login{
-    width:380px;
-    height: 60vh;
+    width:400px;
+    height: fit-content;
     overflow: hidden;
     margin: auto;
     margin-bottom: 10px;
@@ -97,6 +97,16 @@ background-color: none;
     padding-left: 8px;
     color: rgb(255, 242, 242);
 }
+#dob{
+    width: 309px;
+    background-color:  rgba(197, 236, 236, 0.712);
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    color:rgb(85, 82, 82);
+}
 #Pass{
     width: 309px;
     background-color:  rgba(197, 236, 236, 0.712);
@@ -106,6 +116,16 @@ background-color: none;
     padding-left: 8px;
     margin-bottom: 5px;
 }
+#phone{
+    width: 309px;
+    background-color:  rgba(197, 236, 236, 0.712);
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+
 #log{
     width: 309px;
     height: 35px;
@@ -131,6 +151,7 @@ background-color: none;
 color: rgb(65, 126, 130);
 outline: none;
 }
+
 .top-menu{
     width: 100%;
     height: 67px;
