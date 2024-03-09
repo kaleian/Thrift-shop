@@ -97,26 +97,7 @@ background-color: none;
     padding-left: 8px;
     color: rgb(255, 242, 242);
 }
-#dob{
-    width: 309px;
-    background-color:  rgba(197, 236, 236, 0.712);
-    height: 37px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
-    margin-bottom: 5px;
-    color:rgb(85, 82, 82);
-}
 #Pass{
-    width: 309px;
-    background-color:  rgba(197, 236, 236, 0.712);
-    height: 37px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
-    margin-bottom: 5px;
-}
-#phone{
     width: 309px;
     background-color:  rgba(197, 236, 236, 0.712);
     height: 37px;
@@ -151,7 +132,93 @@ background-color: none;
 color: rgb(65, 126, 130);
 outline: none;
 }
+.signup{
+    width:400px;
+    height: 73vh;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    padding-left: 50px;
+    padding-right: 57px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    background:rgba(46, 45, 45, 0.808);
+    border-radius: 15px;
+    
+}
+.signup h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#signup label{
+    color: white;
+    font-size: 17px;
+}
+#name{
+    width: 309px;
+    height: 37px;
+    border: none;
+    background-color: rgba(197, 236, 236, 0.712);
+    border-radius: 3px;
+    padding-left: 8px;
+    color: rgb(255, 242, 242);
+}
+#dob{
+    width: 309px;
+    background-color:  rgba(197, 236, 236, 0.712);
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    color:rgb(85, 82, 82);
+}
+#Password{
+    width: 309px;
+    background-color:  rgba(197, 236, 236, 0.712);
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+#phone{
+    width: 309px;
+    background-color:  rgba(197, 236, 236, 0.712);
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
 
+#login{
+    width: 309px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    background-color:#D4E4FB;
+    border-radius: 5px;
+    color:rgb(85, 82, 82);
+    transition: transform 0.2s;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: georgia;
+}
+#login:hover {
+  transform: scale(1.0);
+  background-color: rgba(197, 236, 236, 0.712);
+}
+#login span{
+    color: white;
+    font-size: 17px;
+}
+#login a{
+color: rgb(65, 126, 130);
+outline: none;
+}
 .top-menu{
     width: 100%;
     height: 67px;
