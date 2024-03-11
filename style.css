@@ -402,4 +402,33 @@ margin-left: 10px;
   .social-media-icons a{
     margin-left: 15px;
   }
-  
+  .location-section {
+    padding: 40px 0;
+}
+
+.location-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.location-container h2{
+    font-size: 30px;
+    color: black;
+}
+.location-container h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.location-container p{
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.location-container .map {
+    margin-top: 20px;
+}
+
+.address {
+    margin-top: 20px;
+    border-radius: 5px;
+}
