@@ -3,40 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Thrift Store</title>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us - Thrift Store</title>
 </head>
 <body>
-   <header class="header-main">
-    <div class="header-logo">
-        <img src="logo1.png" alt="Thriftstore logo">
-          
-    </div>
-    <nav class="header-nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="location.html">Location</a></li>
-            <li><a href="contact.html">Contacts</a></li>
-        </ul>
-    </nav>
-    
-    <div class="header-icons">
-        <div class="header-login">
-        <a href="#">Login/Signup</a>
-    </div>
-        <div class="header-icons-heart">
-            <img src="heart-icon.png" alt="love icon">
+    <header class="header-main">
+        <div class="header-logo">
+            <img src="logo1.png" alt="Thriftstore logo">
         </div>
-        <div class="header-icons-sb">
-            <img src="bag1.jpg" alt="shopping bag icon">
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="header-login">
+                <a href="login.html">Login</a>
+                <a href="signup.html">SignUp</a>
+            </div>
+            <div class="header-icons-heart">
+                <img src="heart-icon.png" alt="love icon">
+            </div>
+            <div class="header-icons-sb">
+                <img src="bag1.jpg" alt="shopping bag icon">
+            </div>
         </div>
-    </div>
-   </header>
-
+    </header>
+    <main class="contact-main">
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you! Reach out to us for any inquiries or feedback.</p>
+            </div>
+        </section>
+        <section class="contact-form-section">
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <form id="contact-form" action="mailto:info@thriftstore.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="send-message-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social-media-icons">
+                <a href="https://www.linkedin.com/in/ian-kale/"><i class="lni lni-linkedin-original"></i></a>
+                <a href="https://twitter.com/ian_kale/"><i class="lni lni-twitter-original"></i></a>
+                <a href="https://www.instagram.com/k.a.l.eee/"><i class="lni lni-instagram-original"></i></a>
+                <a href="https://www.github.com/kaleian/"><i class="lni lni-github-original"></i></a>
+            </div>
+            <div>
+                <p>&#169; Copyright By Thrift Shop</p>
+            </div>
+            <div class="footer-text">
+                <p class="text-sm">&copy; Thrift Shop 2024. All Rights Reserved &trade; inc.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
